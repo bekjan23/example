@@ -1,7 +1,6 @@
-import './Cards.css'
-
-import React from 'react'
-import Cardsitem from './Cardsitem'
+import React from 'react';
+import Cardsitem from './Cardsitem';
+import './Cards.css';
 
 export default function Cards({list}) {
   return (

@@ -1,8 +1,9 @@
 .header {
+  text-align: center;
 }
 .header__content {
   display: flex;
-  justify-content: space-center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }

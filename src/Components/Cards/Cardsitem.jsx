@@ -6,7 +6,6 @@ import './Cards.css'
 
 export default function Cardsitem({info}) {
   return (
-    <div>
       <div className="card-1">
         <img src={Icon1} alt="" />
         <h3 className="card__title">{info.title}</h3>
@@ -16,25 +15,5 @@ export default function Cardsitem({info}) {
           <li className="card__text">{info.text3}</li>
         </ul>
       </div>
-      <div className="card-2">
-        <img src={Icon2} alt="" />
-        <h3 className="card__title">{info.title}</h3>
-        <ul>
-          <li className="card__text">{info.text1}</li>
-          <li className="card__text">{info.text2}</li>
-          <li className="card__text">{info.text3}</li>
-        </ul>
-      </div>
-      <div className="card-3">
-        <img src={Icon3} alt="" />
-        <h3 className="card__title">{info.title}</h3>
-        <ul>
-          <li className="card__text">{info.text1}</li>
-          <li className="card__text">{info.text2}</li>
-          <li className="card__text">{info.text3}</li>
-        </ul>
-      </div>
-    </div>
-
   )
 }
