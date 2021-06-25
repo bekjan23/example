@@ -15,7 +15,7 @@
   line-height: 27px;
   color: #163A24;
 }
-.card {
+.cards {
   padding: 50px 0;
   display: flex;
   justify-content: space-around;
@@ -23,14 +23,25 @@
   flex-wrap: wrap;
   text-align: start;
 }
-.card-1 {
-  padding: 50px 20px;
+.card:nth-child(1) {
+  transform: scale(1.08);
+}
+.card {
+  padding: 50px 30px;
+  max-width: 320px;
+  background: rgba(0, 0, 0, 0.050);
+  border-radius: 15px;
+  transition: .2s;
+  box-shadow: 2px 3px 8px 2px #00000060;
+}
+.card:hover {
+  transform: scale(1.1);
 }
 .card__title {
   font-family: 'Recoleta';
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 31px;
   color: #163A24;
 }

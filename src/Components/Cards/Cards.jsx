@@ -4,10 +4,10 @@ import './Cards.css';
 
 export default function Cards({list}) {
   return (
-    <div className="cards container">
-      <h1 className="cards__title">Consider everyone's best interest</h1>
-      <p className="cards__text">HR is for everyone. Clerksy can help you.</p>
-      <ul className="card">
+    <div className="middle container">
+      <h1 className="middle__title">Consider everyone's best interest</h1>
+      <p className="middle__text">HR is for everyone. Clerksy can help you.</p>
+      <ul className="cards">
         {list.map(item => <Cardsitem key={item.id} info={item}/>)}
       </ul>
     </div>
