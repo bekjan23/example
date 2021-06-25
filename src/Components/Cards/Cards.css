@@ -23,12 +23,10 @@
   flex-wrap: wrap;
   text-align: start;
 }
-.card:nth-child(1) {
-  transform: scale(1.08);
-}
 .card {
+  margin: 50px 0;
   padding: 50px 30px;
-  max-width: 320px;
+  max-width: 300px;
   background: rgba(0, 0, 0, 0.050);
   border-radius: 15px;
   transition: .2s;

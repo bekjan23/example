@@ -5,7 +5,7 @@ import './Cards.css'
 export default function Cardsitem({info}) {
   return (
       <div className="card">
-        <img src={info.icon} alt="" />
+        <img src={info.icon} alt="card-icon"/>
         <h3 className="card__title">{info.title}</h3>
         <ul>
           <li className="card__text">{info.text1}</li>

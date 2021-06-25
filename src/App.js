@@ -10,7 +10,7 @@ function App() {
   const [posts, setPosts] = useState([
     { id: 1, 
       icon: Icon1,
-      title: "Protect Your Company",
+      title: "Protect Your Company For Legal",
       text1: "Compliance Audits & Training",
       text2: "Employee Data Storage",
       text3: "Policy Drafting"
