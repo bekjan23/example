@@ -1,0 +1,19 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
+}
+/* @font-face {
+  font-family: 'Recoleta Alt';
+  src: url('../src/fonts/Recoleta-Regular.woff2');
+  src: local('Recoleta Alt Regular'), local('RecoletaAlt-Regular'),
+      url('../src/fonts/RecoletaAlt-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../src/fonts/RecoletaAlt-Regular.woff2') format('woff2'),
+      url('../src/fonts/RecoletaAlt-Regular.woff') format('woff'),
+      url('../src/fonts/RecoletaAlt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
